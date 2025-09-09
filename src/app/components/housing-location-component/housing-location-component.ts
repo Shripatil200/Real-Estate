@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
   selector: 'app-housing-location-component',
   imports: [RouterModule],
   templateUrl: './housing-location-component.html',
-  styleUrl: './housing-location-component.scss'
+  styleUrls: ['./housing-location-component.scss']
 })
 export class HousingLocationComponent {
   @Input() housingLocation! : HousingLocation;
