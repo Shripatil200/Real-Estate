@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-housing-location-component',
+  standalone: true,
   imports: [RouterModule],
   templateUrl: './housing-location-component.html',
   styleUrls: ['./housing-location-component.scss']
