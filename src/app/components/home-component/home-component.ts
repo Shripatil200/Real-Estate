@@ -9,7 +9,7 @@ import { HousingService } from '../../services/housing-service';
   selector: 'app-home-component',
   imports: [CommonModule, HousingLocationComponent],
   templateUrl: './home-component.html',
-  styleUrl: './home-component.scss'
+  styleUrls: ['./home-component.scss']
 })
 export class HomeComponent {
 
