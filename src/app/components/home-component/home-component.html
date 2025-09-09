@@ -1,1 +1,9 @@
-<p>home-component works!</p>
+<section>
+    <input type="text" placeholder="filter by city" #filter (input)="filteredResult(filter.value)">
+</section>
+
+<section class="results">
+    @for (location of filteredLocationList; track $index) {
+        <app-housing-location-component [housingLocation] = "location"></app-housing-location-component>
+    }
+</section>
